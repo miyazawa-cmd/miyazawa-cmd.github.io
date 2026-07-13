@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDF余白カットツール サポート / Crop &amp; Trim PDF Margins Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", "Segoe UI", Roboto, sans-serif;
+    line-height: 1.8; color: #222; background: #fff; margin: 0; padding: 2rem 1.25rem 4rem;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin: 0 0 0.25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; border-bottom: 1px solid #e5e5e5; padding-bottom: 0.3rem; }
+  p { margin: 0.5rem 0; }
+  .updated { color: #888; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .lang-label { color: #888; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; margin-top: 3rem; }
+  hr { border: none; border-top: 1px solid #e5e5e5; margin: 3rem 0; }
+  a { color: #0066cc; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #ddd; background: #1a1a1a; }
+    h2, hr { border-color: #333; }
+    a { color: #4da3ff; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>PDF余白カットツール サポート</h1>
+  <p class="updated">最終更新日: 2026年7月13日</p>
+  <p>「PDF余白カットツール」は、PDFの余白を上下左右mm単位で指定してカットできるシンプルなアプリです。すべての処理はお使いの端末内で完結します。</p>
+
+  <h2>使い方</h2>
+  <p>アプリを開き、PDFファイルを選択して、モードと余白を選ぶだけです。</p>
+  <p><strong>全ページ:</strong> すべてのページに同じ余白（上下左右、mm単位）を適用します。</p>
+  <p><strong>奇数/偶数:</strong> 奇数ページと偶数ページで別々の余白を指定できます。見開きスキャンなど、ページごとに余白の位置が変わる場合に便利です。</p>
+  <p><strong>ページ範囲指定:</strong> 「1-3,5,7-9」のような書式で対象ページを指定し、そのページだけ余白をカットします。</p>
+
+  <h2>よくある質問</h2>
+  <p><strong>Q. パスワードで保護されたPDFは使えますか？</strong><br>A. 現在、パスワード保護されたPDFには対応していません。</p>
+  <p><strong>Q. 選択したファイルはどこかに送信されますか？</strong><br>A. いいえ。すべての処理は端末内で完結し、ファイルが外部に送信されることはありません。</p>
+  <p><strong>Q. テキストやリンクは保持されますか？</strong><br>A. はい、保持されます。OCRテキスト・ハイパーリンク・しおりはそのまま残ります。ページの表示領域（CropBox）を変更するだけで、ページの中身自体は再生成していません。</p>
+  <p><strong>Q. 回転したページ（スキャンPDF等）でも正しく動きますか？</strong><br>A. はい、動きます。ページの回転（/Rotate）を考慮した上で、画面で見えている向きの通りに余白をカットします。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>ご質問・不具合のご報告は、<a href="mailto:masato.apps@gmail.com">masato.apps@gmail.com</a> までご連絡ください。できるだけ早く返信いたします。</p>
+
+  <h2>プライバシーポリシー</h2>
+  <p><a href="https://miyazawa-cmd.github.io/privacy.html">https://miyazawa-cmd.github.io/privacy.html</a></p>
+
+  <hr>
+
+  <p class="lang-label">English</p>
+  <h1>Crop &amp; Trim PDF Margins — Support</h1>
+  <p class="updated">Last updated: July 13, 2026</p>
+  <p>"Crop &amp; Trim PDF Margins" is a simple app for cropping PDF margins by specifying top/bottom/left/right measurements in millimeters. All processing happens on your device.</p>
+
+  <h2>How to Use</h2>
+  <p>Open the app, select a PDF file, and choose a mode and margins.</p>
+  <p><strong>All pages:</strong> apply the same margins (top/bottom/left/right, in mm) to every page.</p>
+  <p><strong>Odd/Even:</strong> specify different margins for odd and even pages — handy for double-sided scans where the margin position alternates.</p>
+  <p><strong>Page range:</strong> specify target pages using a format like "1-3,5,7-9", and only those pages have their margins cropped.</p>
+
+  <h2>FAQ</h2>
+  <p><strong>Q. Can I use password-protected PDFs?</strong><br>A. Password-protected PDFs are not currently supported.</p>
+  <p><strong>Q. Are my selected files sent anywhere?</strong><br>A. No. All processing happens on your device, and files are never sent externally.</p>
+  <p><strong>Q. Are text and links preserved?</strong><br>A. Yes. OCR text, hyperlinks, and bookmarks are all preserved. The app only changes each page's visible area (the CropBox) — it does not regenerate the page content itself.</p>
+  <p><strong>Q. Does it work correctly on rotated pages (e.g. scanned PDFs)?</strong><br>A. Yes. The app accounts for each page's rotation (/Rotate) and crops the margins according to the orientation you actually see on screen.</p>
+
+  <h2>Contact</h2>
+  <p>For questions or bug reports, please contact <a href="mailto:masato.apps@gmail.com">masato.apps@gmail.com</a>. We'll reply as soon as we can.</p>
+
+  <h2>Privacy Policy</h2>
+  <p><a href="https://miyazawa-cmd.github.io/privacy.html">https://miyazawa-cmd.github.io/privacy.html</a></p>
+
+</div>
+</body>
+</html>
