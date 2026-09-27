@@ -1,0 +1,5 @@
+# app-ads.txt for miyazawa-cmd.github.io (https://iabtechlab.com/ads-txt/)
+# One file per domain. When another app starts using an ad network, append its lines below; do not overwrite.
+
+# Google AdMob — publisher account used by Tilt & Stack (com.masato.tiltstack.app), added 2026-09-26
+google.com, pub-2403826659909644, DIRECT, f08c47fec0942fa0
